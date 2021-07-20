@@ -29,8 +29,6 @@
 
 picture,
 img {
-    /* max-width: 100%;
-    height: auto; */
     max-width: 100%;
     display: block;
 }
@@ -182,14 +180,6 @@ p {
 
 /* services section */
 
-/* .services-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-} */
-
 .services {
     display: flex;
     align-items: center;
@@ -247,6 +237,7 @@ p {
 }
 /*end services section */
 
+
 /* build section */
 .build {
     display: flex;
@@ -262,6 +253,7 @@ p {
     margin-bottom: 2rem;
 }
 /* end build section */
+
 
 /* footer section */
 .footer-container {
@@ -372,7 +364,7 @@ footer p {
 .social-icons a {
     font-size: 2rem;
     color: var(--very-pale-blue);
-    	transition: 0.6s cubic-bezier(0.37, 0, 0.63, 1);
+    transition: 0.6s cubic-bezier(0.37, 0, 0.63, 1);
 }
 
 .social-icons a:hover,
