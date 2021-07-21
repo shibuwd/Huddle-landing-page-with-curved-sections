@@ -40,7 +40,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 a {
@@ -154,7 +154,7 @@ p {
 }
 
 .response-all {
-    margin: 3.5rem 0;
+    margin: 3rem 0;
 }
 
 .response {
@@ -269,7 +269,7 @@ p {
     bottom: 100%;
     left: 0;
     position: absolute;
-    transform: scaleY(1);
+    /* transform: scaleY(1); */
 }
 
 footer p {
@@ -344,9 +344,9 @@ footer p {
 }
 
 .phone a:hover,
-.phone:focus,
+.phone a:focus,
 .email a:hover,
-.email:focus {
+.email a:focus {
     text-decoration: underline;
 }
  
@@ -373,7 +373,7 @@ footer p {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 11px;    
     text-align: center;
     background-color: var(--very-dark-cyan);
 }
@@ -382,3 +382,119 @@ footer p {
     color: var(--pink);
 }
 /* end footer section */
+
+
+/* media query */
+@media only screen and (min-width: 920px) {
+    .community h1 {
+        font-size: 2rem;
+    }
+
+    .community p {
+        max-width: 520px;
+    }
+
+    .response-all {
+        column-count: 2;
+        gap: 25rem;
+    }
+
+    .card-1 .wrapper,
+    .card-3 .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        padding: 0 2.1rem;
+    }
+
+    .card-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2.1rem;
+        margin: 5rem 0;
+    }
+
+    .grow-img,
+    .flowing-img,
+    .users-img {
+        flex: 1;
+        max-width: 700px;
+    }
+
+    .service-desc {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .service-desc h3 {
+        text-align: left;
+        font-size: 1.8rem;
+        align-self: flex-start;
+        margin-left: .8rem;
+    }
+
+    .card-1 p,
+    .card-2 p,
+    .card-3 p {
+        text-align: left;
+    }
+
+    .build {
+        margin: 18rem;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .newsletter {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .all-info {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .newsletter p,
+    .all-info p {
+        max-width: 400px;
+    }
+
+    .email-info {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .email-info .email-add {
+        padding: 1rem 1.5rem;
+        font-size: .8rem;
+        border: none;
+        border-radius: .3rem;
+        width: 70%;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end media query */
