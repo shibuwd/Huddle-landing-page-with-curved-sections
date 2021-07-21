@@ -243,7 +243,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 12rem;
+    margin-top: 13rem;
 }
 
 .build h4 {
@@ -396,6 +396,7 @@ footer p {
     .response-all {
         column-count: 2;
         gap: 25rem;
+        margin-top: 5rem;
     }
 
     .card-1 .wrapper,
@@ -412,7 +413,7 @@ footer p {
         align-items: center;
         justify-content: center;
         padding: 0 2.1rem;
-        margin: 5rem 0;
+        margin: 6rem 0;
     }
 
     .grow-img,
