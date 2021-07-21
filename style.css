@@ -78,7 +78,7 @@ p {
 .btn {
     background-color: var(--pink);
     color: hsl(0, 0%, 100%);
-    padding: .8rem 2.5rem;
+    padding: .9rem 3.2rem;
     border-radius: 5rem;
     font-weight: 600;
     cursor: pointer;
@@ -258,7 +258,7 @@ p {
 /* footer section */
 .footer-container {
     background-color: var(--very-dark-cyan);
-    padding: 2rem 1.3rem;
+    padding: 3rem 1.3rem;
     margin-top: 16rem;
     color: var(--very-pale-blue);
     position: relative;
@@ -307,7 +307,7 @@ footer p {
     background-color: var(--pink);
     color: hsl(0, 0%, 100%);
     border: none;
-    padding: .8rem 1.5rem;
+    padding: 1rem 2.5rem;
     border-radius: .3rem;
     cursor: pointer;
     transition: 0.6s cubic-bezier(0.45, 0, 0.55, 1);
@@ -443,7 +443,7 @@ footer p {
     }
 
     .build {
-        margin: 18rem;
+        margin: 20rem;
     }
 
     .footer-container {
@@ -469,7 +469,7 @@ footer p {
 
     .email-info {
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .email-info .email-add {
@@ -477,7 +477,7 @@ footer p {
         font-size: .8rem;
         border: none;
         border-radius: .3rem;
-        width: 70%;
+        width: 60%;
         margin-bottom: 0;
         cursor: pointer;
     }
