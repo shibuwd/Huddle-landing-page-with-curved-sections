@@ -388,6 +388,7 @@ footer p {
 @media only screen and (min-width: 920px) {
     .community h1 {
         font-size: 2rem;
+        margin-top: 7rem;
     }
 
     .community p {
