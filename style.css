@@ -3,7 +3,7 @@
 /* colors */
 :root {
     /* primary */
---pink: hsl(322, 100%, 66%);
+--pink: hsl(324, 100%, 44%);
 --light-pink: hsl(321, 100%, 78%);
 --light-red: hsl(0, 100%, 63%);
 /* neutral */
@@ -73,12 +73,11 @@ h2 {
 
 p {
     color: var(--very-dark-cyan);
-    /* font-weight: 600; */
 }
 
 .btn {
     background-color: var(--pink);
-    color: var(--very-pale-blue);
+    color: hsl(0, 0%, 100%);
     padding: .8rem 2.5rem;
     border-radius: 5rem;
     font-weight: 600;
@@ -90,7 +89,7 @@ p {
 
 .btn:hover,
 .btn:focus {
-    opacity: .8;
+    filter: brightness(1.4);
 }
 /*end global setting */
 
@@ -109,8 +108,8 @@ p {
 
 .header-btn {
     text-transform: capitalize;
-    border: 2px solid var(--light-pink);
-    color: var(--light-pink);
+    color: hsl(324, 100%, 44%);
+    border: 2px solid hsl(324, 100%, 44%);
     padding: .2rem 1.2rem;
     border-radius: 5rem;
     font-weight: 600;
@@ -119,7 +118,7 @@ p {
 
 .header-btn:hover,
 .header-btn:focus {
-    opacity: .7;
+    filter: brightness(1.4);
 }
 /* end header section */
 
@@ -305,7 +304,7 @@ footer p {
 
 .newsletter-button {
     background-color: var(--pink);
-    color: var(--very-pale-blue);
+    color: hsl(0, 0%, 100%);
     border: none;
     padding: .8rem 1.5rem;
     border-radius: .3rem;
@@ -318,7 +317,7 @@ footer p {
 
 .newsletter-button:hover,
 .newsletter-button:focus {
-    opacity: .8;
+    filter: brightness(1.4);
 }
 
 .footer-logo {
@@ -482,8 +481,7 @@ footer p {
     }
 
 }
-
-
+/* end media query */
 
 
 
