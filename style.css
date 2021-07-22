@@ -269,7 +269,6 @@ p {
     bottom: 100%;
     left: 0;
     position: absolute;
-    /* transform: scaleY(1); */
 }
 
 footer p {
@@ -484,18 +483,4 @@ footer p {
     }
 
 }
-/* end media query */
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*end media query */
+/* end media query *
